@@ -11,8 +11,8 @@ const Hero = () => {
     <section id="home" className="w-full p-2 flex xl:flex-row flex-col justify-center min-h-screen gap-10  max-container">
         <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-36">
             <p className="text-xl font-montserrat text-teal-blue">Always Think That</p>
-            <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold"> 
-                <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">FOREVER. FASTER</span>
+            <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[60px] max-sm:leading-[70px] font-bold"> 
+                <span className="xl:bg-white xl:whitespace-nowrap relative z-10 lg:pr-10">FOREVER. FASTER</span>
                 <br/>
                 <span className="text-teal-blue inline-block mt-3">PUMA</span>
             </h1>
