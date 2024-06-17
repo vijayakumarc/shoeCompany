@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <header className="padding-x py-8 z-40 w-full fixed bg-white shadow-sm">
       <nav className="flex justify-between items-center max-container">
-        <a href="">
+        <a href="#home" onClick={(e) => handleLinkClick(e, 'home')}>
           <img src={headerLogo} alt="header logo" width={130} height={29} />
         </a>
         <ul className="flex-1 flex justify-end items-center gap-16 max-lg:hidden lg:pr-10">
