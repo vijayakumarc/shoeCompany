@@ -8,16 +8,16 @@ const SuperQuality = () => {
             <h2 className="mt-10 font-palanquin text-4xl capitalize font-bold lg:max-w-lg"> 
                 We provide You
                 <br/>
-                <span className="text-coral-red">Super Quality</span> shoes
+                <span className="text-teal-blue">Super Quality</span> shoes
             </h2>
-            <p className="mt-4 lg:max-w-lg info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quas accusamus incidunt in eaque! Laboriosam minima aliquam aliquid unde laborum?</p>
-            <p className="mt-6 lg:max-w-lg info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quas accusamus incidunt in eaque! </p>
+            <p className="mt-4 lg:max-w-lg info-text">Share the excitement in Teamsports, innovate with Golf, bring style into Running & Training and performance into Motorsports.</p>
+            <p className="mt-6 lg:max-w-lg info-text">In light of our FOREVER. FASTER. mantra, we bring a high level of brand heat to sports and elevate PUMA to the next level.</p>
             <div className="mt-11">
               <Button label="View details"/>
             </div>
       </div>
       <div className="flex flex-1 justify-center items-center">
-        <img src={shoe8} alt="shoe8" width={570} height={522} className="object-contain" />
+        <img src={shoe8} alt="shoe8" width={570} height={522} className="object-contain rounded-3xl shado" />
       </div>
     </section>
   )
